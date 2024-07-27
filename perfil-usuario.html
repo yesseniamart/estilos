@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de Usuario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .header, .footer {
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .menu li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .menu li a:hover {
+      background-color: #111;
+    }
+
+    .profile-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .profile-table th, .profile-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .profile-table th {
+      background-color: #f4f4f4;
+    }
+
+    .section {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f7f7f7;
+      border-left: 5px solid #b0c4de; /* Light Steel Blue */
+    }
+
+    .section h3 {
+      background-color: #f4f4f4;
+      padding: 10px;
+      margin-top: 0;
+    }
+
+    .section p, .section ul {
+      padding-left: 10px;
+    }
+
+    .edit-button {
+      background-color: #4682b4; /* Steel Blue */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .edit-button:hover {
+      background-color: #4169e1; /* Royal Blue */
+    }
+
+    .footer {
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Perfil de Usuario</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="perfil-usuario.html">Perfil de Usuario</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h2>Información Personal</h2>
+      <table class="profile-table">
+        <tr>
+          <th>Nombre</th>
+          <td>Yessenia Martinez</td>
+        </tr>
+        <tr>
+          <th>Edad</th>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>yessenia.mtz@example.com</td>
+        </tr>
+      </table>
+
+      <div class="section">
+        <h3>Biografía</h3>
+        <p>Yessenia Martinez es una chica social y amigable.</p>
+      </div>
+
+      <div class="section">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Ver videos</li>
+          <li>Viajar</li>
+          <li>Fotografía</li>
+          <li>Caminar</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Experiencia Laboral</h3>
+        <p>Yessenia es una jovencita de 18 años a la que le gusta dormir.</p>
+      </div>
+
+      <a href="#" class="edit-button">Editar Perfil</a>
+    </div>
+
+    <div class="footer">
+      <p>Pie de página</p>
+    </div>
+  </div>
+</body>
+</html>
